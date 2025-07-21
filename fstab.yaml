@@ -4,4 +4,4 @@ mountpoints:
     type: "aem"
     suffix: ".html"
   /ui:
-    url: "http://localhost:4502/ui"
+    url: "https://main--UE-Test--sdobladom.aem.live"
