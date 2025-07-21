@@ -3,5 +3,3 @@ mountpoints:
     url: "http://localhost:4502/bin/franklin.delivery/sdobladom/UE-Test/main"
     type: "aem"
     suffix: ".html"
-  /ui:
-    url: "http://localhost:4502"
