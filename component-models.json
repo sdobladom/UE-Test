@@ -219,7 +219,7 @@
     "id": "carousel",
     "fields": [
       {
-        "component": "text",
+        "component": "reference",
         "valueType": "string",
         "name": "image",
         "label": "Image",
