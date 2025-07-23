@@ -221,16 +221,10 @@
       {
         "component": "reference",
         "valueType": "string",
-        "name": "images",
-        "label": "Images",
+        "name": "image",
+        "label": "Image",
         "multi": true
       }
-    ],
-    "ui": {
-      "display": "flex",
-      "flexDirection": "row",
-      "gap": "10px",
-      "overflowX": "auto"
-    }
+    ]
   }
 ]
