@@ -214,10 +214,11 @@
         "multi": false
       },
       {
-        "component": "title",
+        "component": "text",
         "name": "title",
         "value": "",
-        "label": "Title"
+        "label": "Title",
+        "valueType": "string"
       },
       {
         "component": "richtext",

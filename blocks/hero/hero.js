@@ -15,15 +15,15 @@ export default function decorate(block) {
   const paragraps = block.querySelectorAll('p');
 
   if (pictures.length >= 2 && heading) {
-    pictures[0].className = 'background'
+    pictures[0].className = 'background';
     const secondPicture = pictures[1];
-    secondPicture.className = 'logo'
+    secondPicture.className = 'logo';
     const container = secondPicture.closest('div');
     container.appendChild(heading);
-    container.className = 'info'
+    container.className = 'info';
     paragraps.forEach((paragrap) => {
       container.appendChild(paragrap)
-    })
+    });
   }
 
   [...block.children].forEach((section) => {
