@@ -2,9 +2,9 @@ export default function decorate(block) {
   [...block.children].forEach((section) => {
     const onlyChild = section.children.length === 1 ? section.firstElementChild : null;
     if (
-      onlyChild &&
-      onlyChild.tagName === 'DIV' &&
-      (onlyChild.querySelector('picture') || onlyChild.querySelector('h1') || onlyChild.querySelector('p'))
+      onlyChild
+      && onlyChild.tagName === 'DIV' 
+      && (onlyChild.querySelector('picture') || onlyChild.querySelector('h1') || onlyChild.querySelector('p'))
     ) {
       section.replaceWith(onlyChild);
     }

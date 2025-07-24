@@ -1,0 +1,70 @@
+{
+  "definitions": [
+    {
+      "title": "Course Data",
+      "id": "course-data",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block",
+            "template": {
+              "name": "Course Data",
+              "filter": "course-data"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Coruse-data-item",
+      "id": "coruse-data-item",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block/item",
+            "template": {
+              "name": "Course Data Item",
+              "model": "coruse-data-item"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "coruse-data-item",
+      "fields": [
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "image",
+          "label": "Image",
+          "multi": false
+        },
+        {
+          "component": "richtext",
+          "name": "text",
+          "value": "",
+          "label": "Text",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "name": "title",
+          "value": "",
+          "label": "Title",
+          "valueType": "string"
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "id": "course-data",
+      "components": [
+        "course-data-item"
+      ]
+    }
+  ]
+}

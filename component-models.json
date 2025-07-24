@@ -232,6 +232,20 @@
     "id": "course-data-item",
     "fields": [
       {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      },
+      {
         "component": "text",
         "name": "title",
         "value": "",
