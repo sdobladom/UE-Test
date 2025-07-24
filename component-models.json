@@ -214,7 +214,7 @@
         "multi": false
       },
       {
-        "component": "text",
+        "component": "richtext",
         "name": "title",
         "value": "",
         "label": "Title",

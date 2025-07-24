@@ -16,15 +16,15 @@
       }
     },
     {
-      "title": "Coruse-data-item",
-      "id": "coruse-data-item",
+      "title": "Course-data-item",
+      "id": "course-data-item",
       "plugins": {
         "xwalk": {
           "page": {
             "resourceType": "core/franklin/components/block/v1/block/item",
             "template": {
               "name": "Course Data Item",
-              "model": "coruse-data-item"
+              "model": "course-data-item"
             }
           }
         }
@@ -33,7 +33,7 @@
   ],
   "models": [
     {
-      "id": "coruse-data-item",
+      "id": "course-data-item",
       "fields": [
         {
           "component": "reference",
