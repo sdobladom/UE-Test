@@ -22,7 +22,7 @@ export default function decorate(block) {
     container.appendChild(heading);
     container.className = 'info';
     paragraps.forEach((paragrap) => {
-      paragrap.className = 'text'
+      paragrap.className = 'text';
       container.appendChild(paragrap);
     });
   }
