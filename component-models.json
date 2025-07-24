@@ -232,10 +232,11 @@
     "id": "course-data-item",
     "fields": [
       {
-        "component": "title",
+        "component": "text",
         "name": "title",
         "value": "",
-        "label": "Title"
+        "label": "Title",
+        "valueType": "string"
       }
     ]
   }
