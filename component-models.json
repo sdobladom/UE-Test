@@ -214,11 +214,10 @@
         "multi": false
       },
       {
-        "component": "richtext",
+        "component": "title",
         "name": "title",
         "value": "",
-        "label": "Title",
-        "valueType": "string"
+        "label": "Title"
       },
       {
         "component": "richtext",
@@ -226,6 +225,17 @@
         "value": "",
         "label": "Description",
         "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "course-data-item",
+    "fields": [
+      {
+        "component": "title",
+        "name": "title",
+        "value": "",
+        "label": "Title"
       }
     ]
   }
