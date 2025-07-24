@@ -89,11 +89,11 @@ header {
 }
 
 header .header,
+header .header[data-block-status="loaded"],
 footer .footer {
   visibility: hidden;
 }
 
-header .header[data-block-status="loaded"],
 footer .footer[data-block-status="loaded"] {
   visibility: visible;
 }
