@@ -251,7 +251,8 @@
         "name": "title",
         "value": "",
         "label": "Title",
-        "valueType": "string"
+        "valueType": "string",
+        "id": "main-title"
       }
     ]
   }

@@ -50,7 +50,7 @@
   margin: 0 auto
 }
 
-div > p {
+.text {
   color: var(--background-color);
   font-size: 16px;
 }

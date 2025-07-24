@@ -3,7 +3,7 @@ export default function decorate(block) {
     const onlyChild = section.children.length === 1 ? section.firstElementChild : null;
     if (
       onlyChild
-      && onlyChild.tagName === 'DIV' 
+      && onlyChild.tagName === 'DIV'
       && (onlyChild.querySelector('picture') || onlyChild.querySelector('h1') || onlyChild.querySelector('p'))
     ) {
       section.replaceWith(onlyChild);
@@ -22,6 +22,7 @@ export default function decorate(block) {
     container.appendChild(heading);
     container.className = 'info';
     paragraps.forEach((paragrap) => {
+      paragrap.className = 'text'
       container.appendChild(paragrap);
     });
   }
