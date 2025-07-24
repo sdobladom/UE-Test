@@ -207,6 +207,13 @@
         "value": ""
       },
       {
+        "component":"reference",
+        "valueType": "string",
+        "name": "logo",
+        "label": "Logo",
+        "multi": false
+      },
+      {
         "component": "richtext",
         "name": "text",
         "value": "",
