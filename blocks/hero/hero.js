@@ -4,7 +4,7 @@ export default function decorate(block) {
     if (
       onlyChild &&
       onlyChild.tagName === 'DIV' &&
-      (onlyChild.querySelector('picture') || onlyChild.querySelector('h1'))
+      (onlyChild.querySelector('picture') || onlyChild.querySelector('h1') || onlyChild.querySelector('p'))
     ) {
       section.replaceWith(onlyChild);
     }
@@ -12,6 +12,7 @@ export default function decorate(block) {
 
   const pictures = block.querySelectorAll('picture');
   const heading = block.querySelector('h1');
+  const paragraps = block.querySelectorAll('p');
 
   if (pictures.length >= 2 && heading) {
     pictures[0].className = 'background'
@@ -20,6 +21,9 @@ export default function decorate(block) {
     const container = secondPicture.closest('div');
     container.appendChild(heading);
     container.className = 'info'
+    paragraps.forEach((paragrap) => {
+      container.appendChild(paragrap)
+    })
   }
 
   [...block.children].forEach((section) => {

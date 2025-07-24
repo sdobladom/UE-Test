@@ -46,8 +46,7 @@
           "name": "text",
           "value": "",
           "label": "Text",
-          "valueType": "string",
-          "className": "description"
+          "valueType": "string"
         }
       ]
     }
