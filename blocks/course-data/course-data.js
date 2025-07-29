@@ -1,9 +1,8 @@
 import ffetch from '../../scripts/ffetch.js';
 
 export default function decorate(block) {
-//  const content = await ffetch('/course-data.json').all();
   const elements = block.querySelectorAll('[data-aue-resource]');
-  console.log(block.innerHTML)
-  console.log(elements.length)
-  Array.from(elements).map(el => console.log(el.getAttribute('data-aue-resource')));
+  const url = "https://author-p147864-e1510969.adobeaemcloud.com/" + elements[0].split("aemconnection:/")[0] + ".json"
+  const content = await ffetch().all(url);
+  console.log(content)
 }
