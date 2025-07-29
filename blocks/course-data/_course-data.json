@@ -58,7 +58,7 @@
           "id": "main-title"
         },
         {
-          "component": "aem-content",
+          "component": "aem-content-fragment",
           "name": "textContent_cta",
           "label": "CTA",
           "valueType": "string"
