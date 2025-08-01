@@ -58,12 +58,10 @@
           "id": "main-title"
         },
         {
-          "component": "select",
+          "component": "text",
           "name": "Form",
           "label": "Form Id",
-          "valueType": "string",
-          "options": "https://author-p147864-e1510969.adobeaemcloud.com/content/ue-test/form-ids.json",
-          "classes": "form"
+          "valueType": "string"
         }
       ]
     }
