@@ -253,12 +253,6 @@
         "label": "Title",
         "valueType": "string",
         "id": "main-title"
-      },
-      {
-        "component": "aem-content-fragment",
-        "name": "textContent_cta",
-        "label": "CTA",
-        "valueType": "string"
       }
     ]
   }
