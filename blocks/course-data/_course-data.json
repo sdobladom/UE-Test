@@ -61,7 +61,8 @@
           "component": "text",
           "name": "Form",
           "label": "Form Id",
-          "valueType": "string"
+          "valueType": "string",
+          "classes": "form"
         }
       ]
     }
