@@ -253,6 +253,13 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "general info",
+        "value": "",
+        "label": "Info",
+        "valueType": "string"
       }
     ]
   },{
