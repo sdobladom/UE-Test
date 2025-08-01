@@ -230,6 +230,18 @@
     ]
   },
   {
+    "id": "course-data",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "General Info",
+        "value": "",
+        "label": "General Info",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "course-data-item",
     "fields": [
       {
@@ -253,16 +265,10 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
-      },
-      {
-        "component": "richtext",
-        "name": "general info",
-        "value": "",
-        "label": "Info",
-        "valueType": "string"
       }
     ]
-  },{
+  },
+  {
     "id": "form",
     "fields": [
       {
