@@ -29,7 +29,9 @@
   {
     "id": "course-data",
     "components": [
-      "course-data-item"
+      "course-data-item",
+      "form",
+      "general-info"
     ]
   },
   {

@@ -33,7 +33,7 @@
   ],
   "models": [
     {
-      "id": "course-data",
+      "id": "general-info",
       "fields": [
         {
           "component": "richtext",
@@ -70,13 +70,88 @@
           "valueType": "string"
         }
       ]
+    },
+    {
+      "id": "form",
+      "fields": [
+        {
+          "component": "select",
+          "name": "Form",
+          "label": "Form Id",
+          "valueType": "number",
+          "options": [
+            { "name": "Email Unsubscribe Form [en_US]", "value": 1 },
+            { "name": "Interest - Test [es]", "value": 1002 },
+            { "name": "FM-Event Registration [en_US]", "value": 1007 },
+            { "name": "FM-EventRegistration [en_US]", "value": 1008 },
+            { "name": "FM - Content Registration Form [en_US]", "value": 1009 },
+            { "name": "LearningForm - Test [en_US]", "value": 1018 },
+            { "name": "Download Brochure [null]", "value": 1045 },
+            { "name": "Subscripciones [en_US]", "value": 1048 },
+            { "name": "Test Field Update [en_US]", "value": 1050 },
+            { "name": "Messaging Data 1062 [en_US]", "value": 1062 },
+            { "name": "Progressive Profile Test [es]", "value": 1065 },
+            { "name": "Admission Form [en_US]", "value": 1071 },
+            { "name": "1072 - Specific Pathway (Test for IE website) [en_US]", "value": 1072 },
+            { "name": "Prueba Duplicados [en_US]", "value": 1077 },
+            { "name": "Admission Form [en_US]", "value": 1089 },
+            { "name": "Admission Form [en_US]", "value": 1090 },
+            { "name": "Registration Form [en_US]", "value": 1091 },
+            { "name": "Registration Form [en_US]", "value": 1092 },
+            { "name": "Confirmación [en_US]", "value": 1093 },
+            { "name": "Registration Form [en_US]", "value": 1099 },
+            { "name": "Registration Form [en_US]", "value": 1107 },
+            { "name": "Confirmación [en_US]", "value": 1108 },
+            { "name": "Specific Pathway (Test for IE website) 2 [en_US]", "value": 1121 },
+            { "name": "Test duplicates [en_US]", "value": 1157 },
+            { "name": "Test Country Region [en_US]", "value": 1164 },
+            { "name": "FM-Event Registration [en_US]", "value": 1172 },
+            { "name": "Prueba Pathway/Program [en_US]", "value": 1174 },
+            { "name": "Prueba Years/Program [en_US]", "value": 1175 },
+            { "name": "Registration Form [en_US]", "value": 1176 },
+            { "name": "Confirmación [en_US]", "value": 1177 },
+            { "name": "Ejemplo Tipo 3 - Dual Master´s degrees type picklist [en_US]", "value": 1179 },
+            { "name": "Type 2 Lead Form [en_US]", "value": 1181 },
+            { "name": "Type 2 Lead Form [en_US]", "value": 1186 },
+            { "name": "Type 2 Lead Form [null]", "value": 1187 },
+            { "name": "Type 2 Lead Form [en_US]", "value": 1188 },
+            { "name": "Type 2 Lead Form [en_US]", "value": 1189 },
+            { "name": "Type 2 Lead Form [en_US]", "value": 1190 },
+            { "name": "Type 2 Lead Form [en_US]", "value": 1191 },
+            { "name": "Type 2 Lead Form [en_US]", "value": 1192 },
+            { "name": "Type 2 Lead Form [en_US]", "value": 1193 },
+            { "name": "Type 2 Lead Form [en_US]", "value": 1194 },
+            { "name": "Type 2 Lead Form [en_US]", "value": 1195 },
+            { "name": "Type 2 Lead Form [en_US]", "value": 1196 },
+            { "name": "Type 2 Lead Form [en_US]", "value": 1197 },
+            { "name": "Type 2 Lead Form [en_US]", "value": 1198 },
+            { "name": "Type 2 Lead Form [en_US]", "value": 1199 },
+            { "name": "Type 2 Lead Form [en_US]", "value": 1200 },
+            { "name": "Type 2 Lead Form [en_US]", "value": 1201 },
+            { "name": "Type 2 Lead Form [en_US]", "value": 1202 },
+            { "name": "Type 2 Lead Form [en_US]", "value": 1204 },
+            { "name": "Example Tipo 3 - Bachelor and Master - Program picklist with optional phone number [en_US]", "value": 1205 },
+            { "name": "Example Tipo 2 - Bachelor - Pathway select or program picklist [en_US]", "value": 1236 },
+            { "name": "Example Tipo 3 - Master - Program select - Track select with optional Phone number [en_US]", "value": 1240 },
+            { "name": "Test Country Province W [en_US]", "value": 1250 },
+            { "name": "1251 - Specific Pathway (Test for IE #2) [en_US]", "value": 1251 },
+            { "name": "Cache Form [en_US]", "value": 1253 },
+            { "name": "Type 2 Lead Form [en_US]", "value": 1257 },
+            { "name": "Form con campos completos [en_US]", "value": 1259 },
+            { "name": "Test Modal Pathway [en_US]", "value": 1266 },
+            { "name": "EN - Tipo 1 -Bachelor - 1276 [en_US]", "value": 1276 }
+          ]
+        }
+      ]
     }
   ],
   "filters": [
     {
       "id": "course-data",
       "components": [
-        "course-data-item"
+        "course-data-item",
+        "form",
+        "general-info"
       ]
     }
   ]
