@@ -6,7 +6,7 @@ export default function decorate(block) {
   const codeP = paragraphs[paragraphs.length -1]
   const code = +codeP.textContent
 
-   console.log(code)
+  console.log(code)
 
   const container = codeP.parentElement;
   container.innerHTML = ''
