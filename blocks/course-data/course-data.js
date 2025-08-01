@@ -22,7 +22,6 @@ export default function decorate(block) {
 //    return null;
 //  });
 
-  block.innerHTML = '';
   block.append(
     form({ id: "mktoForm_1002" })
   )
