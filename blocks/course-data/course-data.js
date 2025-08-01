@@ -22,8 +22,11 @@ export default function decorate(block) {
 //    return null;
 //  });
 
+  const paragraphs = document.querySelectorAll('p');
+  const code = +paragraphs[paragraphs.length -1].textContent
+
   block.append(
-    form({ id: "mktoForm_1002" })
+    form({ id: `mktoForm_${code}` })
   )
 
   block.append(
