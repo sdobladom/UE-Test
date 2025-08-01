@@ -253,7 +253,11 @@
         "label": "Title",
         "valueType": "string",
         "id": "main-title"
-      },
+      }
+    ]
+  },{
+    "id": "form",
+    "fields": [
       {
         "component": "select",
         "name": "Form",
