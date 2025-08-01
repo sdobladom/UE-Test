@@ -33,18 +33,6 @@
   ],
   "models": [
     {
-      "id": "general-info",
-      "fields": [
-        {
-          "component": "richtext",
-          "name": "General Info",
-          "value": "",
-          "label": "General Info",
-          "valueType": "string"
-        }
-      ]
-    },
-    {
       "id": "course-data-item",
       "fields": [
         {
