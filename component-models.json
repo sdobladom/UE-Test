@@ -347,5 +347,17 @@
         ]
       }
     ]
+  },
+  {
+    "id": "advantages",
+    "fields" : [
+      {
+        "component": "text",
+        "name": "advantage",
+        "label": "advantage",
+        "valueType": "string",
+        "multi": true
+      }
+    ]
   }
 ]

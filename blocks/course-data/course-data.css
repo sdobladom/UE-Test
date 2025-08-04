@@ -15,6 +15,7 @@
     margin: 0 auto !important;
     padding: 0 15px;
     display: flex;
+    background-color: #F3F3F3;
 }
 
 .course-data-wrapper {
