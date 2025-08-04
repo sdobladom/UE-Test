@@ -356,7 +356,7 @@
         "name": "advantage",
         "label": "advantage",
         "valueType": "string",
-        "multi": false
+        "multi": true
       }
     ]
   }
