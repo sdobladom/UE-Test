@@ -17,7 +17,8 @@
       "columns",
       "fragment",
       "course-data",
-      "form"
+      "form",
+      "general-info"
     ]
   },
   {
@@ -29,9 +30,7 @@
   {
     "id": "course-data",
     "components": [
-      "course-data-item",
-      "form",
-      "general-info"
+      "course-data-item"
     ]
   },
   {

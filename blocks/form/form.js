@@ -2,8 +2,9 @@ import { form, script } from '../../scripts/dom-helpers.js';
 
 export default function decorate(block) {
 
-  const paragraphs = document.querySelectorAll('p');
+  const paragraphs = document.querySelectorAll('.form');
   const codeP = paragraphs[paragraphs.length -1]
+  console.log(codeP.textContent)
   const code = +codeP.textContent
 
   console.log(code)
