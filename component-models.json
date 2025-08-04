@@ -350,13 +350,13 @@
   },
   {
     "id": "advantages",
-    "fields" : [
+    "component": "panel",
+    "repeatable": true,
+    "fields": [
       {
         "component": "text",
         "name": "advantage",
-        "label": "advantage",
-        "valueType": "string",
-        "multi": true
+        "label": "Advantage"
       }
     ]
   }
