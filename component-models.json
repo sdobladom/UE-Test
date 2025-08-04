@@ -359,5 +359,17 @@
         "multi": true
       }
     ]
+  },
+  {
+    "id": "accreditations",
+    "fields" : [
+      {
+        "component": "reference",
+        "name": "accreditation",
+        "label": "accreditation",
+        "valueType": "string",
+        "multi": true
+      }
+    ]
   }
 ]
