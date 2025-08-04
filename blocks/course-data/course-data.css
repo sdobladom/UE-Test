@@ -1,0 +1,21 @@
+.course-data {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course-data > div {
+    max-width: 33%;
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.course-data-container {
+    max-width: 1170px;
+    margin: 0 auto !important;
+    padding: 0 15px;
+}
+
+.course-data-wrapper {
+    max-width: 52%;
+}

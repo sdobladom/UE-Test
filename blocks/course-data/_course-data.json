@@ -64,7 +64,8 @@
     {
       "id": "course-data",
       "components": [
-        "course-data-item"
+        "course-data-item",
+        "general-info"
       ]
     }
   ]
